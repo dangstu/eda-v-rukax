@@ -1,0 +1,83 @@
+/*шрифты*/
+
+@font-face {
+	font-family: 'beer_money';
+	src: url(font/fonts/beer_money.eot); /* IE 9 Compatibility Mode */
+	src: url('../font/fonts/beer_money.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url(font/fonts/beer_money.woff2) format('woff2'), /* Super Modern Browsers */
+		url(font/fonts/beer_money.woff) format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url(font/fonts/beer_money.ttf) format('truetype'), /* Safari, Android, iOS */
+		url(font/fonts/beer_money.svg) format('svg'); /* Chrome < 4, Legacy iOS */
+		font-weight: normal;
+		font-style: normal;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.menu{
+	padding:25vh 50px;
+	position: fixed;
+	background: rgba(0,0,0,0.65);
+	height: 100vh;
+/*	backdrop-filter: blur(10px); размытие фона
+*/ border-right: 7px solid #5555ff;
+	left: -325px;	
+	transition:all 0.4s ease;
+}
+
+.menu:hover{
+	left: 0;
+	transition:all 0.6s ease;
+}
+
+.log-menu>h1{
+	font-family: beer_money;
+	font-size: 40px;
+	margin-bottom: 40px;
+	color:#0000ff;
+}
+
+.list-menu>ul>li>a{
+	font-family: beer_money;
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: #0080ff;
+	padding-left: 2px;
+	transition:all 0.5s ease;
+}
+
+.list-menu>ul>li>a:hover{
+	color: #ffffff;
+	padding-left: 10px;
+	transition:all 0.2s ease;
+}
+
+
+.list-menu>a>p{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 22px;
+	margin-top: 60px;
+	color:#0000ff;
+	transition:all 0.2s ease;
+}
+
+.list-menu>a>p:hover{
+	color:#f3f3f3;
+	transition:all 0.2s ease;
+}
+
+.fon{
+	width: 100vw;
+	height: 99.4vh;
+	overflow: hidden;
+}
+
+
+
